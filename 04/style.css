@@ -1,0 +1,71 @@
+/*/// BASIC CODE ///*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body, div, span, img,
+ol, ul, li, a, p, h1, h2, h3,
+h4, h5, h6, option, legend, label,
+table, th, td, tr, article, aside,
+caption, figure, footer, header, hgroup,
+mark, nav, section, time, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	/* overflow-x: hidden; */
+	overflow-y: scrol;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*/// STARTING YOUR STYLE ///*/
+.box {
+	color: white;
+	padding: 20px;
+	font-size: 100px;
+	text-align: center;	
+	text-shadow: 4px 2px 4px #333;
+}
+
+.box-1 {background: #3ed;}
+.box-2 {background: #37d;}
+.box-3 {background: #3dd;}
+.box-4 {background: #a1d;}
+.box-5 {background: #aad;}
+.box-6 {background: #4dd;}
+.box-7 {background: #7aa;}
+.box-8 {background: #ac6;}
+.box-9 {background: #111;}
+.box-10 {background: #999;}
+
+.container {
+	min-height: 100vh;
+	border: 10px solid red;
+	
+	display: flex;
+	/* flex-wrap: nowrap; */
+	flex-wrap: wrap;
+	/* flex-wrap: wrap-reverse; */
+}
+
+.box {
+	margin: 5px;
+	width: calc(33.33333333333333% - 10px);
+}
