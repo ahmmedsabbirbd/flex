@@ -34,31 +34,3 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-
-/*/// STARTING YOUR STYLE ///*/
-.box {
-	color: white;
-	padding: 20px;
-	font-size: 100px;
-	text-align: center;	
-	text-shadow: 4px 2px 4px #333;
-}
-
-.box-1 {background: #3ed;}
-.box-2 {background: #37d;}
-.box-3 {background: #3dd;}
-.box-4 {background: #a1d;}
-.box-5 {background: #aad;}
-.box-6 {background: #4dd;}
-.box-7 {background: #7aa;}
-.box-8 {background: #ac6;}
-.box-9 {background: #111;}
-.box-10 {background: #999;}
-
-.container {
-	height: 100vh;
-	border: 10px solid red;
-	
-	/* display: flex; */
-	display: inline-flex;
-}
